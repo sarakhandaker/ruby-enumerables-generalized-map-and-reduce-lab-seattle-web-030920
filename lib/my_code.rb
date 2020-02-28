@@ -8,9 +8,11 @@ end
 array
 end
 
-def reduce(array, starting_value=false)
+def reduce(array, starting_value)
     i=0
+    if 
    value=starting_value
+ end
   while i<array.length
 value= yield(value,array[i])
   i+=1
