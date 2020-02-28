@@ -5,6 +5,7 @@ def map(array)
   yield array[i]
   i+=1
 end
+array
 end
 
 def reduce(array, starting_value=0)
