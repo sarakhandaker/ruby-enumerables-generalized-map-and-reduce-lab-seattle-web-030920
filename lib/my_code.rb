@@ -1,11 +1,6 @@
 # Your Code Here
 def map(array)
-  i=0
-  while i<array.length
-  yield array[i]
-  i+=1
-end
-array
+yield array
 end
 
 def reduce(array, starting_value=0)
