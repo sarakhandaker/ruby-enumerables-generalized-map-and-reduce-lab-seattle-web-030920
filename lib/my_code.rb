@@ -10,6 +10,7 @@ end
 
 def reduce(array, starting_value=nil)
     i=0
+    value=nil
   while i<array.length
 value= yield(value, array[i])
   i+=1
