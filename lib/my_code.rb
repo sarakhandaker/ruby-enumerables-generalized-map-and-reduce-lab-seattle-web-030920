@@ -8,13 +8,17 @@ end
 array
 end
 
-def reduce(array, starting_value=0)
+def reduce(array, starting_value=nil)
     i=0
   while i<array.length
 value= yield(value, array[i])
   i+=1
 end
+
+if starting_value != nil
 value+=starting_value
+end
+
 value
 end
 
