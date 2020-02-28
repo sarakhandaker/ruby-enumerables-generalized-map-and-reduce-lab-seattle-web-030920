@@ -9,9 +9,11 @@ array
 end
 
 def reduce(array, starting_value=nil)
-    i=0
+    i=1
   if starting_value != nil
-    value+=starting_value
+    value=starting_value
+    i=0
+  else value=array[0]
   end
   while i<array.length
 value= yield(value, array[i])
