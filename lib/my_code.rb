@@ -20,7 +20,7 @@ value
 end
 
 #map([1, 2, 3, -9]){|n| n * n}
-
+#reduce(source_array){|memo, n| memo + n}
 
 #return false when no truthy value is present
 #assume false, loop through each value and see if anything is true and change number then 
