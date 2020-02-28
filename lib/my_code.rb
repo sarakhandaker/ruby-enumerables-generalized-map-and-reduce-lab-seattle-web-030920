@@ -8,7 +8,7 @@ end
 array
 end
 
-def reduce(array, starting_value=0)
+def reduce(array, starting_value=false)
     i=0
    value=starting_value
   while i<array.length
