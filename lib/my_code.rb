@@ -16,7 +16,7 @@ def reduce(array, starting_value=0)
 value= yield array[i]
   i+=1
 end
-total
+value
 end
 
 #map([1, 2, 3, -9]){|n| n * n}
