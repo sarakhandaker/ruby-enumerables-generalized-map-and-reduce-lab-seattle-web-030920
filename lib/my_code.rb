@@ -1,7 +1,9 @@
 # Your Code Here
 def map(array)
-  yield
-  array
+  i=0
+  while i<array.length
+  yield array[i]
+end
 end
 
 def reduce(array, starting_value=0)
