@@ -21,4 +21,5 @@ end
 #map([1, 2, 3, -9]){|n| n * n}
 
 
-#return 
+#return false when no truthy value is present
+#assume false, loop through each value and see if anything is true and change number then 
